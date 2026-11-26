@@ -1,0 +1,23 @@
+# Maven build output
+target/
+*.jar
+*.war
+*.ear
+
+# Local database configuration with sensitive passwords
+db.properties
+config/db.properties
+
+# IDE and Editor configurations
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+*.log
+
+# OS metadata
+Thumbs.db
+Desktop.ini
+.DS_Store
